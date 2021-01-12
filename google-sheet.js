@@ -30,7 +30,7 @@ $("#orderform").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://www.lamaroc.site/go/?order=vvycheptfXE6qgJiTnOrowofzvG7Wc",
+        url: "https://www.lamaroc.fun/go/?order=vvycheptfXE6qgJiTnOrowofzvG7Wc",
         type: "post",
         data: serializedData
     });
@@ -59,7 +59,7 @@ $("#orderform").submit(function(event){
         // Reenable the inputs
         $inputs.prop("disabled", false);
         console.log("It's running");
-        window.location.href = 'https://lamaroc.site/thanks';
+        window.location.href = 'https://lamaroc.fun/thanks';
     });
 
     // Prevent default posting of form
