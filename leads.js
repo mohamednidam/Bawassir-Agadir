@@ -30,7 +30,7 @@ $("#orderform").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://www.lamaroc.fun/go/?order=wdXYdNirOR6H6bQ5VcFuWZU1oOh27w",
+        url: "https://www.lamaroc.fun/go/?order=VEuPDWmXkgPFNYI3bGhemWSqDowfA7",
         type: "post",
         data: serializedData
     });
